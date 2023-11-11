@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Eldercare.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" layoutX="-1.0" layoutY="1.0" AnchorPane.topAnchor="1.0">
+         <image>
+            <Image url="@../Image/Page/LoginPage.png" />
+         </image>
+         <viewport>
+            <Rectangle2D height="1080.0" minX="4.0" width="1920.0" />
+         </viewport>
+      </ImageView>
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#1f93ff00" height="66.0" layoutX="211.0" layoutY="579.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#1f93ff00" height="66.0" layoutX="212.0" layoutY="749.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <JFXButton fx:id="newAccount" layoutX="510.0" layoutY="447.0" onAction="#newAccountOnAction" opacity="0.0" prefHeight="43.0" prefWidth="290.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="ForgotPassword" layoutX="595.0" layoutY="836.0" onAction="#ForgotPasswordonAction" opacity="0.0" prefHeight="33.0" prefWidth="207.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TextField fx:id="UserNameTxt" layoutX="239.0" layoutY="579.0" opacity="0.0" prefHeight="66.0" prefWidth="523.0" text="sandali" />
+      <JFXButton fx:id="LoginButton" buttonType="RAISED" layoutX="212.0" layoutY="885.0" onAction="#Loginbuttononaction" prefHeight="66.0" prefWidth="586.0" style="-fx-background-color: #087E8B; -fx-background-radius: 30;" text="Login">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="imageimv" fitHeight="66.0" fitWidth="58.0" layoutX="719.0" layoutY="742.0" onMouseClicked="#imageimvonMouseClicked" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField fx:id="Passwordtxt" layoutX="259.0" layoutY="752.0" opacity="0.0" prefHeight="60.0" prefWidth="510.0" text="dfdt" />
+   </children>
+</AnchorPane>

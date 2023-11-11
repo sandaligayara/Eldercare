@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Eldercare.controller.RegisterFormController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" layoutX="-1.0" layoutY="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../Image/Page/RegisterPage.png" />
+         </image>
+         <viewport>
+            <Rectangle2D height="1080.0" minX="4.0" width="1920.0" />
+         </viewport>
+      </ImageView>
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#2197ff00" height="66.0" layoutX="228.0" layoutY="403.0" opacity="0.9" stroke="BLACK" strokeType="INSIDE" width="586.0" AnchorPane.topAnchor="403.0" />
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#1f93ff00" height="66.0" layoutX="228.0" layoutY="802.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#1f93ff00" height="66.0" layoutX="228.0" layoutY="660.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="#1f93ff00" height="66.0" layoutX="228.0" layoutY="529.0" stroke="BLACK" strokeType="INSIDE" width="586.0" />
+      <TextField layoutX="260.0" layoutY="404.0" opacity="0.0" prefHeight="63.0" prefWidth="523.0" />
+      <TextField layoutX="250.0" layoutY="531.0" opacity="0.0" prefHeight="63.0" prefWidth="523.0" />
+      <TextField layoutX="260.0" layoutY="660.0" opacity="0.0" prefHeight="63.0" prefWidth="523.0" />
+      <TextField layoutX="260.0" layoutY="804.0" opacity="0.0" prefHeight="63.0" prefWidth="523.0" />
+   </children>
+</AnchorPane>
